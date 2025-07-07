@@ -53,6 +53,14 @@ app.use(cookieParser());
 // Static uploads directory
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
+// Root endpoint
+app.get('/', (req, res) => {
+  res.json({
+    message: 'Welcome to the Digilab-NG API!',
+    status: 'ok'
+  });
+});
+
 // API Routes
 app.use('/api/users', userRoutes);
 app.use('/api/classes', classRoutes);
