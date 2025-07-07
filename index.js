@@ -26,8 +26,21 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
+const allowedOrigins = [
+  'https://digilearn-fe.vercel.app',
+  'http://localhost:5173'
+];
+
 app.use(cors({
-  origin: process.env.NODE_ENV === 'production' ? 'https://digilearn-fe.vercel.app' : 'http://localhost:5173',
+  origin: function (origin, callback) {
+    // Izinkan request tanpa origin (seperti dari Postman atau mobile apps)
+    // atau jika origin ada di dalam whitelist
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
