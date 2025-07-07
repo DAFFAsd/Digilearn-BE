@@ -1,0 +1,154 @@
+# Tugas Pendahuluan Modul 1 : Pengenalan Dasar Rangkaian Digital
+
+Nama : Yolanda Vionida
+NPM    : 2406344290
+
+## Teori
+
+### **Jangan lupa untuk mencantumkan referensi dalam setiap pengerjaan soal (jawaban tanpa referensi hanya mendapatkan maksimal 50% dari bobot soal)**
+
+### 1. **Apa itu breadboard? Jelaskan bagaimana breadboard dapat menghantarkan arus! (10 poin)**
+
+**Jawaban:** Breadboard merupakan alat prototype rangkaian tanpa solder. Bentuknya menyerupai papan dengan lubang kecil saling terhubung. Lubang ini digunakan untuk nyambungin komponen elektronik. Breadboard digunakan untuk merancang, menguji, dan menghubungkan rangkaian elektronik dalam waktu sementara [1].
+
+readboard ada 3 bagian, yaitu bagian atas, bagian bawah, dan bagian tengah breadboard.
+
+![breadboard 1](https://images.javatpoint.com/blog/images/breadboard2.png)
+
+Bagian atas dan bawah breadboard terdapat lubang-lubang yang dapat menghubungkan rangkaian secara horizontal. Sedangkan, lubang pada bagian tengah breadboard dihubungkan secara vertikal [2].Artinya, setiap satu baris horizontal pada breadboard punya tempat sambungan yang sama. Begitu juga dengan baris vertikal. 
+![breadboard 2](https://images.javatpoint.com/blog/images/breadboard3.png)
+
+Breadboard bisa menghantarkan arus listrik jika dihubungkan dengan sumber daya seperti baterai, power supply, maupun adaptor daya USB. Kabel kutub positif dari sumber daya perlu terhubung ke baris positif dan kabel negatif ke baris negatif breadboard. Saat memasukkan komponen, kakinya dimasukkan sepenuhnya ke dalam lubang dan menyentuh strip logam di dalam breadboard. Untuk menghubungkan antara baris dan breadboard, digunakan kabel jumper.
+
+#### Reference:
+
+- Available: [1] “Breadboard - Javatpoint,” www.javatpoint.com. https://www.javatpoint.com/breadboard
+- Available: [2] Science Buddies, “How to Use a Breadboard,” Science Buddies, 2019. https://www.sciencebuddies.org/science-fair-projects/references/how-to-use-a-breadboard
+- Available: [3] R. Ogle, “How Does a Breadboard Work?,” Electoviz, Jul. 04, 2024. https://electroviz.com/basic-electronics-concepts/how-does-a-breadboard-work (accessed Feb. 09, 2025).
+‌
+
+### **2. Jelaskan apa yang dimaksud dengan VCC dan Ground, Dimana VCC dan Ground dihubungkan pada breadboard? (10 poin)**
+
+**Jawaban:** VCC atau Voltage Common Collecter adalah pin rangkaian elektronik. Fungsinya untuk menyuplai tegangan positif di rangkaian. VCC sering digunakan untuk menghubungkan catu daya ke BJT (bipolar junction transistor) di suatu rangkaian elektronik. Tujuannya suoaya sinyal bisa lebih mudah ditangani dan menjaga agar transistor berada pada fase konduksi. Pekerjaan rangkaian elektronik lebih efisien dalam menangani sinyal yang berasal dari input karena sumber tegangan VCC berada pada output transistor.
+
+Ground adalah titik acuan tegangan 0 V dalam suatu rangkaian elektronik di mana suatu tegangan diukur.
+VCC dihubungkan pada jalur merah atau baris positif sedangkan ground dihubungkan pada jalur biru/hitam atau baris negatif breadbaord.
+
+![ground](https://www.allaboutcircuits.com/uploads/articles/Davis_ground_1.jpg)
+
+
+#### Reference:
+
+-  Available: [1] Electricalvolt, “VCC in Electronics,” Electrical Volt, Sep. 03, 2024. https://www.electricalvolt.com/what-does-vcc-mean-in-electronics/ (accessed Feb. 09, 2025).
+-  Available: [2] “What is Ground? Understanding the Foundation of Electrical Circuits - electrouniversity.com,” electrouniversity.com, Jun. 20, 2024. https://electrouniversity.com/what-is-ground/ (accessed Feb. 09, 2025).
+‌
+‌
+
+### **3. Jelaskan apa itu LED, serta jelaskan apa itu Anode dan Katode pada LED! (10 poin)**
+
+**Jawaban:** LED adalah contoh komponen elektronik yang bila dialiri arus listrik dapat memancarkan cahaya monokromatik. Warna yang dihasilkan juga tergantung pada jenis bahan semikonduktor yang digunakan dan panjang gelombang emisi cahayanya.
+
+Anoda sama artinya dengan  kutub positif kalau katoda adalah istilah lain kutub negatif. Arus listrik masuk lewat sisi positif (anoda) dan keluar melalui sisi negatif (katoda). Anoda berperan sebagai penyuplai elektron sedangkan katoda sebagai resistor elektron.
+
+Prinsip kerja LED mirip  dengan dioda yang lain, LED punya dua kutub yaitu kutub positif (P) dan kutub negatif (N). Saat tegangan mengalir pada LED dari Anoda atau kutub positif (P) menuju ke Katoda atau kutub negatif (N), kelebihan Elektron pada N-Type material akan berpindah ke yang kelebihan lubang yaitu yang bermuatan positif (P-Type material). Saat inilah, elektron mengenai lubang dan akan melepaskan photon dan memancarkan cahaya monokromatik (satu warna).
+
+![led](https://www.electrical4u.com/wp-content/uploads/What-is-a-LED.png?ezimgfmt=ng%3Awebp%2Fngcb38%2Frs%3Adevice%2Frscb38-1)
+
+#### Reference:
+
+-  Available: [1] Electrical4U, “Light emitting diode (LED): What is it & How Does it Work? | Electrical4U,” https://www.electrical4u.com/, Oct. 28, 2020. https://www.electrical4u.com/led-or-light-emitting-diode/
+- Available: [2] D. Kho, “Pengertian LED (Light Emitting Diode) dan Cara Kerja LED,” Teknik Elektronika, Dec. 08, 2014. https://teknikelektronika.com/pengertian-led-light-emitting-diode-cara-kerja/
+- Available:[3] TechGuru, “LED Anode vs Cathode - Difference Between and How to Identify,” Nerd Techy, Mar. 08, 2022. https://nerdtechy.com/led-anode-vs-cathode-difference
+‌
+
+### **4. Jelaskan kegunaan resistor dalam suatu rangkaian. Apa yang terjadi bila resistor tidak digunakan pada komponen seperti LED? (10 poin)**
+
+**Jawaban:** 
+![resistor](https://tse2.mm.bing.net/th?id=OIP.iGjI8DhElLz8P7cGNAJCNgHaEo&pid=Api&P=0&h=220)
+Resistor adalah komponen listrik pasif yang bersifat menyerap energi. Resistor berfungsi untuk membatasi arus listrik dan mengatur tegangan yang mengalir dalam satu rangkaian dengan memberikan hambatan. Selain itu, resistor dapat berfungsi untuk melindungi komponen lain dan membagi tegangan.
+
+Jika resistor tidak digunakan pada komponen seperti LED, maka arus listrik yang besar dan melebihi batas akan mengalir dan merusak komponen tersebut. Tegangan dan arus yang mengalir tidak stabil, juga pada efek panas berlebih yang berpotensi membakar komponen listrik.
+
+#### Reference:
+- Available: [1] “Resistor: Pengertian, Fungsi, dan Simbol dalam Elektronika,” ilmuteknik.id, Nov. 21, 2024. https://ilmuteknik.id/resistor-pengertian-fungsi-dan-simbol-dalam-elektronika/
+- Available: [2] Matan, “Apa Fungsi Resistor dalam Sebuah Rangkaian?,” Electricity - Magnetism, Aug. 17, 2024. https://www.electricity-magnetism.org/id/apa-fungsi-resistor-dalam-sebuah-rangkaian/
+-  Available: [3] https://www.facebook.com/supriyadi.pro, “Apa yang terjadi jika resistor rusak? | Tugassains Com,” Tugas Sains, Jan. 09, 2025. https://www.tugassains.com/2025/01/apa-yang-terjadi-jika-resistor-rusak.html (accessed Feb. 09, 2025).
+‌
+
+### **5. Jelaskan apa yang dimaksud dengan IC! Contohkan kegunaan IC dengan menjelaskan tentang IC 7408 (10 poin)**
+
+**Jawaban:** IC (*Integrated Circuit*) adalah komponen elektronik yang bersifat aktif yang terdiri dari gabungan transistor, dioda, resistor dan kapasitor yang dibentuk menjadi suatu rangkaian elektronika dalam ukuran lebih kecil. Bahan utama untuk membentuk IC adalah bahan semikonduktor, misalnya silicon. 
+
+IC dibagi menjadi tiga jenis klasifikasi, yaitu:
+
+1. TTL (Transistor Transistor Logic)
+IC TTL (Transistor Transistor Logic) adalah jenis IC digital yang banyak digunakan dalam  rangkaian elektronika. IC TTL menggunakan transistor sebagai komponen utamanya. Fungsi utama transistor sebagai pemicu variasi logis. IC TTL berfungsi untuk mengatur logika perangkat elektronik yang beroperasi dengan keadaan logis on dan off.
+3. IC-CMOS
+IC_CMOS atau *Complementary Metal-Oxide-Semiconductor*, adalah jenis IC digital yang memiliki karakteristik khusus. Pada IC-CMOS, penggunaan gelombang kotak digunakan dalam dua kondisi, yaitu 1 dan 0, yang berperan sebagai saklar. Fungsi utamanya sebagai gerbang logika.
+5. IC Linier
+Fungsi utama IC linear untuk memperkuat tegangan. IC linear tidak berperan sebagai gerbang logika seperti IC digital. Jenis IC linear dirancang dengan rangkaian yang proporsional untuk menghasilkan output yang sebanding dengan inputnya.
+
+IC 7408 contoh jenis dari IC TTL (Transistor-Transistor Logic). IC 7408 terdiri dari 4 gerbang AND dua input, yang mana empat gerbang logika AND, masing-masing dengan dua input dan satu output. IC 7408 bisa digunakan untuk membuat sistem pengendali pada lampu indikator keamanan, gerbang logika dasar pada rangkaian, dll.
+
+#### Reference:
+
+- Available: [1] “Artikel TeknoBgt.com,” Kelas PLC, Sep. 27, 2023. https://www.kelasplc.com/pengertian-integrated-circuit-ic-dan-aplikasinya/
+- Available: [2] “IC Adalah: Pengertian, Fungsi, Jenis-jenis dan Contohnya,” ilmuteknik.id, Jan. 20, 2025. https://ilmuteknik.id/ic-adalah/
+‌
+
+### **6. Apa itu datasheet ? Jelaskan bagian-bagian apa saja yang dapat ditemukan pada datasheet beserta isinya!** (10 poin)
+**Jawaban:** Data Sheet adalah dokumen mengenai rangkuman kinerja dan karakteristik lain komponen elektronik maupun sub-sistem seperti power supply, atau perangkat lunak yg cukup terinci untuk merancang komponen ke dalam sebuah sistem. Datasheet biasa digunakan sebagai referensi yang diciptakan oleh produsen untuk  memberikan informasi penting tentang produk atau layanan yang ditawarkan oleh perusahaan. dimulai dengan halaman pengantar yang menggambarkan keseluruhan dokumen,diikuti dengan daftar komponen tertentu, dengan informasi lebih lanjut tentang konektivitas perangkat. 
+
+Bagian-bagian yang dapat ditemukan pada data sheet dan isinya sebagai berikut:
+![Screenshot 2025-02-10 071821](https://hackmd.io/_uploads/rJGW86IFkx.png)
+
+
+#### Reference:
+
+- Available: [1] Moderator emiten.com, “Arti Penjelasan Istilah data sheet adalah,” Aplikasi Rekomendasi Riset Analisa Sinyal Saham Hari ini -, Sep. 06, 2022. https://emiten.com/info/arti-penjelasan-istilah-data-sheet-adalah/ (accessed Feb. 10, 2025).
+‌
+
+## Praktik
+
+Pada bagian ini anda akan mengikuti langkah-langkah untuk membuat sebuah rangkaian sederhana untuk menyalakan LED pada platform Tinkercad.
+
+1. Buatlah dan login pada akun <a href = https://www.tinkercad.com/>Tinkercad</a> atau login menggunakan akun Google.
+2. Navigasi ke **https://www.tinkercad.com/dashboard/designs/circuits** dan buatlah rangkaian baru dengan menggunakan menu **Create > Circuits**
+
+   ![1738932021072](https://raw.githubusercontent.com/lebit-L1X/FileDigilab/refs/heads/main/Screenshot%202025-02-07%20194015.png)
+3. Letakkan sebuah breadboard dari bagian **Components**
+
+   ![1738932021072](https://raw.githubusercontent.com/lebit-L1X/FileDigilab/refs/heads/main/Screenshot%202025-02-07%20194202.png)
+4. Gunakan component **Power Supply** sebagai sumber tegangan pada rangkaian
+
+   ![1738932359325](https://raw.githubusercontent.com/lebit-L1X/FileDigilab/refs/heads/main/Screenshot%202025-02-07%20194554.png)
+5. Hubungkan power supply pada breadboard sesuai dengan jawaban soal teori no 2.
+6. Letakkan sebuah LED pada breadboard dan hubungkan Anode dengan bagian VCC breadboard dari breadboard. Anda dapat menghighlight kaki LED untuk mencari bagian anode. Posisi dari kabel dan LED pada breadboard dibebaskan.
+   ![1738933093993](https://raw.githubusercontent.com/lebit-L1X/FileDigilab/refs/heads/main/Screenshot%202025-02-07%20195720.png)
+7. Setelahnya, hubungkan katode dari LED dengan sebuah resistor. Hubungkan resistor tersebut ke bagian ground dari breadboard.
+   ![1738933093993](https://raw.githubusercontent.com/lebit-L1X/FileDigilab/refs/heads/main/Screenshot%202025-02-07%20200103.png)
+8. Tekan tombol **Start Simulation** untuk menjalankan rangkaian, pastikan LED menyala ketika simulasi dijalankan.
+   ![1738933093993](https://raw.githubusercontent.com/lebit-L1X/FileDigilab/refs/heads/main/Screenshot%202025-02-07%20200329.png)
+   ![1738933093993](https://raw.githubusercontent.com/lebit-L1X/FileDigilab/refs/heads/main/Screenshot%202025-02-07%20200427.png)
+9. Ubahlah warna dari kabel serta LED yang digunakan (dibebaskan), setelah itu ubahlah nama dari proyek Tinkercad yang dibuat menjadi NamaDepan_NPM.
+
+   ![1738933093993](https://raw.githubusercontent.com/lebit-L1X/FileDigilab/refs/heads/main/Screenshot%202025-02-07%20201101.png)
+
+   ### 10. **Jelaskan proses yang telah anda lakukan untuk menyalakan LED tersebut (Tidak perlu referensi) (20 poin)
+**Jawaban:**
+1. Power supply dihubungkan ke breadboard dengan cara menghubungkan kabel dari kutub positif power supply ke baris positif breadboard dan menghubungkan kabel kutub negatif power suppply ke baris negatif pada breadboard.
+2. Lampu LED yang sudah diambil dihubungkan anodanya (kaki panjang) ke salah satu kaki resistor. Lalu, katoda LED dihubungkan ke garis negatif breadboard.
+3. Kaki resistor yang satunya dihubungkan ke garis positif breadboard.
+4. Atur tegangan keluaran power supply dan besar hambatan. Di sini saya menggunakan tegangan sebesar 10 V dan hambatan sebesar 1 kilo ohm.
+5. Klik start simulation, maka lampu LED akan menyala.
+
+   ### 11. **Sertakan screenshot dari rangkaian yang telah anda buat dengan mengikuti langkah berikut (10 poin)**
+
+**Jawaban:** 
+ ### Screenshot Rangkaian :
+![Screenshot 2025-02-10 064017](https://hackmd.io/_uploads/SJNrpn8Kyg.png)
+
+
+   ### 12. Sertakan link dari file Tinkercad yang telah anda buat dengan mengikuti langkah berikut untuk memastikan file anda tidak bersifat Private (10 poin)
+**Jawaban:**
+### Link Rangkaian : https://www.tinkercad.com/things/1YwW0i1hDMM-yolanda-2406344290
