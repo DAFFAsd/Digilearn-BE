@@ -216,19 +216,8 @@ app.use((err, req, res, next) => {
   res.status(500).json({ message: 'Something went wrong!' });
 });
 
-// Start server
-async function startServer() {
-  try {
-    // Initialize database schema
-    await initializeDatabase();
+// Initialize database schema. Ini akan berjalan saat serverless function pertama kali dijalankan (cold start).
+initializeDatabase().catch(error => console.error('Failed to initialize database:', error));
 
-    app.listen(PORT, '0.0.0.0', () => {
-      console.log(`Digilab-NG server running on port ${PORT}`);
-    });
-  } catch (error) {
-    console.error('Server startup error:', error);
-    process.exit(1);
-  }
-}
-
-startServer();
+// Ekspor app untuk lingkungan serverless Vercel
+module.exports = app;
